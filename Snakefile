@@ -2,9 +2,8 @@ import os
 SAMPLES = []
 rootdir = '/database'
 for rootdir, dirs, files in os.walk(rootdir):
-	for subdir in dirs:
-		if subdir[0] == "G":
-			SAMPLES.append(subdir)
+	if dirs[0] == "G":
+		SAMPLES.append(dirs)
 
 #rule to dezip faa and gff
 
