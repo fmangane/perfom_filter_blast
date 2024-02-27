@@ -1,5 +1,5 @@
 # perfom_filter_blast
-A pipeline to perform BLAST on several genomes using one specie as a model then filter the output to keep only the best hits (based on e-value, coverage and bitscore
+A pipeline to perform BLAST on several genomes using one specie as a model then filter the output to keep only the best hits (based on e-value, coverage and bitscore).
 The analysis adds annotation informations ( gene name, function, position on genome...) to the hits remaining after filters.
 Initial files to be provided : 
 _ fasta format of the search protein model 
